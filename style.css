@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    
+}
+
+body {
+    background-image: url(images/bg-pattern-desktop.svg);
+  
+}
+.hero {
+display: block;
+    
+}
+
+.leftside {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+}
