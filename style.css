@@ -7,6 +7,13 @@ body {
     background-image: url(images/bg-pattern-desktop.svg);
   
 }
+
+.row {
+    display:flex;
+    
+    
+    
+}
 .hero {
 display: block;
     
@@ -14,6 +21,31 @@ display: block;
 
 .leftside {
     display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
+    display: block;
+    margin-left: 160px;
+   
+}
+
+
+
+.logo {
+    margin-top: 60px;
+}
+
+h1{
+    margin-top: 135px;
+}
+
+h3{
+    margin-top: 40px;
+    margin-right:230px;
+}
+
+
+.email {
+    margin-top: 40px;
+}
+
+footer{
+    margin-top: 80px
 }
