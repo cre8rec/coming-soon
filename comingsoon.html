@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
   
 
@@ -24,15 +24,24 @@
     
 <div class="row">
     <div class="column leftside">
-        <div class="logo">
-            <img src="images/logo.svg">
+                        <div class="logo">
+            <img src="images/logo.svg" width="160px">
         </div>
+                <div class="logo-mobile">
+            <img src="images/logo.svg" width="110px">
+        </div>
+        <img class="hero-mobile" src="images/hero-mobile.jpg">
+ 
         <div class="container">
-            <h1>We're</h1><br/>
-                <h2>coming soon</h2><br/>
-                    <h3>Hello fellow shoppers! We're currently building our new fashion store. 
-                    Add your email below to stay up-to-date with announcements and our launch deals.</h3><br/>
-                    <div class="email">Email Address</div>
+            
+            <h1>WE'RE</h1><br/>
+                <h2>COMING <br/> SOON</h2><br/>
+                    <h3>Hello fellow shoppers! We're currently building our new <br/>fashion store. 
+                    Add your email below to stay up-to-date with<br/> announcements and our launch deals.</h3><br/>
+                    <form action="/submit">
+                    <input class="email" type="text" placeholder="Email Address" required>
+                    <button class="submit" type="submit"> > </button>
+                    </form>    
         </div>
     
         <footer>
